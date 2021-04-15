@@ -5,3 +5,150 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    background-color: #f7f9f9;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #2081c3;
+    padding: 25px 40px;
+    box-shadow: 12px 12px #f7f9f9;
+}
+
+.links {
+    color: #f7f9f9;
+    font-size: 18px;
+    margin-right: 18px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#footer {
+    background-color: #0a2c42;
+    padding: 5px 15px;
+}
+
+.footer_p {
+    color: #f7f9f9;
+    font-weight: bold;
+}
+
+#beer-home {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#beer-home_img {
+    width: 350px;
+    height: 350px;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: #2081c3;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #f7f9f9;
+    font-weight: bold;
+    border-radius: 8px;
+    border-style: none;
+    box-shadow: 1px 2px #bfbfbf;
+    cursor: pointer;
+}
+
+
+/*  random-beers page  */
+
+#container2 {
+    display: flex;
+    justify-content: center;
+    margin: 50px 50px;
+}
+
+#beer-img {
+    max-width: 80%;
+    max-height: 50%;
+    margin: 20px 50px;
+}
+
+.left-side {
+    text-align: center;
+}
+
+.right-side {
+    margin-top: 50px 150px 50px 100px;
+    padding: 0px 50px 0px 20px;
+    text-align: justify;
+}
+
+.name {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.tagline {
+    color: #bfbfbf;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*  beers page  */
+
+.container {
+    display: flex;
+    justify-content: baseline;
+    flex-wrap: wrap;
+    margin: 50px 50px 0px 50px;
+}
+
+.image-beers {
+    max-width: 25%;
+    max-height: 25%;
+    position: relative;
+    left: 150px;
+    padding-top: 10px;
+}
+
+.beer-card {
+    max-width: 30%;
+    height: 400px;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #bfbfbf;
+}
+
+h4 {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    margin: auto
+}
+
+h5 {
+    color: #bfbfbf;
+    padding: 10px;
+    margin: auto
+}
+
+p {
+    font-size: smaller;
+    padding: 15px;
+}
